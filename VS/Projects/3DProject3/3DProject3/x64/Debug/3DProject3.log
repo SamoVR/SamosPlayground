@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject3\3DProject3\main.cpp(62,18): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  3DProject3.vcxproj -> C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject3\x64\Debug\3DProject3.exe

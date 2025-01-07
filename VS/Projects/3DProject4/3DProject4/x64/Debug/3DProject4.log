@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(199,25): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(229,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(230,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(232,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(233,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(461,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(474,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\3DProject4\main.cpp(661,33): warning C4552: '*': result of expression not used
+  3DProject4.vcxproj -> C:\Users\Samuel\source\repos\SamoVR\SamosCircus2\3DProject4\x64\Debug\3DProject4.exe
