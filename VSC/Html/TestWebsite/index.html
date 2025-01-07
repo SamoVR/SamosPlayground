@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samo_VR - Programmer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /*<owner>Samo_VR</owner>*/
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0046af, #3b72c5, #009ffd, #3b72c5, #0046af);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            background-color: #1c1c1c;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            margin-top: 35px; /* Add top margin equal to or slightly more than nav bar height */
+        }
+
+        nav {
+            background-color: #1c1c1c;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #e50914;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px 20px 20px; /* Removed top padding */
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgba(30, 30, 30, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            max-width: 800px;
+            margin: 40px auto;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            color: #ffffff;
+            border-bottom: 2px solid #e50914;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #ffffff;
+        }
+
+        h4 {
+            color: #ffffff;
+            border-top: 2px solid #e50914;
+            padding-top: 10px;
+            font-size: 1em;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #1e90ff;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            color: #f8ab04;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background: #1e90ff;
+            color: #fff;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #004688;
+            transform: scale(1.1);
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Samo_VR</h1>
+    </header>
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hi. I'm Samo and I work in Roblox Studio for about 3 years now and in Visual Studio Code for about a year. I believe that I have intermediate skills related to lua scripting. Additionally, I have a little bit of experience with C# from Unity projects I did in the past. I understand OOP to some degree and I am actively studying it at my current high school. I also understand Python language to some degree.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3> <font size="4px">Roblox</font> </h3>
+
+            <div class="project hidden">
+                <h3 class="highlight">SCPF | Artemis</h3>
+                <p><a href="https://www.roblox.com/groups/16228589/Artemis-Special-Containment-Procedures-Foundation#!/about" target="_blank" class="btn">Group Link</a></p>
+                <p>Worked on various anomalies such as; SCP-457, SCP-662, SCP-610-1, SCP-610-2, SCP-610-4, SCP-963, SCP-034 & SCP-504. I also worked on systems in this game such as; Mining System, Infection System, Fire System, Anomaly Actor Systems, Ambience System, Area System, Fall Damage Systems, and more.</p>
+            </div>
+
+            <div class="project hidden">
+                <h3 class="highlight">Innovation HQ 3.0</h3>
+                <p><a href="https://www.roblox.com/groups/34032233/Innovation-HQ-3-0-Reimagined#!/about" target="_blank" class="btn">Group Link</a></p>
+                <p>Game is still in development and I do actively participate in developing of this game. So far worked on Systems such as; Door System, Infection System, Nametag System, and more. Also worked on various mechanics such as locking doors, cannon that shoots out player with camera animation, and so on.</p>
+            </div>
+
+            <div class="project">
+                <h3 class="highlight">Afterlife</h3>
+                <p>A game developed by myself, highly unfinished as of now. Worked on stuff such as Door System, Main Menu, Death System, Dialogue system, Quest system, and so on.</p>
+                <p><a href="https://www.roblox.com/games/16381788642/Afterlife-PRE-ALPHA" target="_blank" class="btn">Game Link</a></p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>I have experience in various programming languages. Main ones being; C#, Lua, Python, HTML. I know basics in Unity (C#), and I do know how to effectively work in Roblox Studio (Lua). I am most capable of scripting in Roblox Studio, therefore in Lua language.</p>
+            <p>I am currently studying C++ & OOP at my high school and I am learning every day by practicing. I can adapt to new teams pretty fast and I work with passion!</p>
+            <h4>Programming Enviroments: <font color = #f8ab04>LUA</font>, <font color = #f8ab04>Python</font></h4>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3> <font size = 4px>Roblox</font> </h3>
+
+            <div class="project">
+                <h3 class="highlight">Innovation HQ 3.0</h3>
+                <p><strong>Job Title:</strong> Programmer</p>
+                <p><strong>Started working:</strong> 2024, May  </p>
+                <p><strong>Ended working:</strong> N/A </p>
+                <p>Working as the main Programmer for this game. I develop various things, ranging from simple scripted buttons to whole systems. So far, I worked on Door System, Infection System, Nametag System, and more. The game is still highly work in progress and therefore more features are to be added.</p>
+            </div>
+
+            <div class="project">
+                <h3 class="highlight">SCPF | Artemis</h3>
+                <p><strong>Job Title:</strong> Acting Development, General Scripter</p>
+                <p><strong>Started working:</strong> 2023, July</p>
+                <p><strong>Ended working:</strong> 2024, March</p>
+                <p>I worked as an Actor Developer and one of the main programmers for this game. Assets I worked on; SCP-457, SCP-662, SCP-610-1, SCP-610-2, SCP-610-4, SCP-963, SCP-034, SCP-504, Mining System, Infection System, Fire System, Anomaly Actor Systems, Ambience System, Area System, Fall Damage Systems, various cloak types for the Cloak System, and more.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

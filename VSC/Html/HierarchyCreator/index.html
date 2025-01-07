@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Hierarchy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <button onclick="addRole()">Create Role</button>
+        <button id="teleportButton">Teleport to Center</button>
+        <button id="themesButton">Themes</button>
+        <div id="themesPopup" class="dropdown-content">
+            <button onclick="applyTheme('normal')">Normal</button>
+            <button onclick="applyTheme('medieval')">Medieval</button>
+            <button onclick="applyTheme('halloween')">Halloween</button>
+            <button onclick="applyTheme('scifi')">Sci-Fi</button>
+        </div>
+    </div>
+
+    <div class="hierarchy-container" id="hierarchyContainer">
+        <!-- Dynamic roles will be added here -->
+    </div>
+
+    <!-- Popup UI for Editing Roles -->
+    <div id="rolePopup" class="role-popup">
+        <div class="top-bar">
+            <span>Role Editor</span>
+            <span class="close-btn" onclick="closePopup()">X</span>
+        </div>
+        <label for="editRoleName">Name:</label>
+        <input type="text" id="editRoleName" />
+        <label for="editRoleColor">Background Color:</label>
+        <input type="color" id="editRoleColor" />
+        <label for="editTextColor">Text Color:</label>
+        <input type="color" id="editTextColor" />
+        <label for="editRoleFont">Font:</label>
+        <select id="editRoleFont">
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+        <button onclick="saveRoleChanges()">Save</button>
+        <button onclick="closePopup()">Cancel</button>
+        <button id="removeBlockBtn" class="remove-btn" onclick="removeBlock()">Remove Block</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
